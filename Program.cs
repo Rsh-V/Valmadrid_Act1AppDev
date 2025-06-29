@@ -6,12 +6,6 @@ class Act1
         Console.WriteLine("-----------------------------------------");
         Console.WriteLine("Hi! welcome to the C# Calculator program!");
         Console.WriteLine("-----------------------------------------");
-        Console.WriteLine("\nPlease enter your name:");
-        string studentName = Console.ReadLine();
-
-        sayHi(studentName);
-
-        Console.WriteLine("-----------------------------------------");
     }
 
     public static void Calculator()
@@ -75,8 +69,5 @@ class Act1
         }
         Console.ReadKey();
     }
-    static void sayHi(string name)
-    {
-        Console.WriteLine("\nHi " + name + "!");
-    }
+    
 }
